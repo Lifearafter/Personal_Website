@@ -4,15 +4,19 @@
     <head> 
         <meta charset="UTF-8">
         <meta name="description" content="This is my blog about learning html">
+        <meta name="author" content="Zaid">
+        <meta name="keywords" content="HTML,CSS, Zaid, Learning HTML and CSS, First Website">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Learning HTML and CSS</title>
     </head>
     <body>
         <header style="background-color:#049e84;">
             <h3>
                 <nav>
-                    <a href="../index.html" target="_blank" style="color:#99e9ef">Home</a>
+                    <a href="../../index.html" target="_blank" style="color:#99e9ef">Home</a>
                     <a href="../blogs.html" target="_blank" style="color:#99e9ef">Blogs</a>
                     <a href="https://github.com/Lifearafter" style="color:#99e9ef" target="_blank">Github</a>
+                    <a href="../login.html" target="_blank" style="color:#99e9ef">Login</a>
                     <a href="../aboutme.html" target="_blank" style="color:#99e9ef">About Me</a>
                 </nav>
             </h3>
@@ -20,7 +24,7 @@
         <main>
             <article>
                 <h1>Learning HTML and CSS</h1>
-                    <p> <b>First ever html web page.</b> <br/>
+                    <p> <b>First ever html web page.</b> <br/></p>
                         <br/>
                         <section>
                             <h3>Main HTML structure</h3>
@@ -87,10 +91,67 @@
                             To link between pages of the website you can use href attribute with a relative URL.<br/>
                         </section>
                         <section>
+                            <h3>Images and Videos</h3>
+                            Images in html can be displayed simply using img tag with the src attribute.<br/>
+                            It is recommended to have a alt attribute for the image so that in case of image not found
+                                there is some thing to be displayed.<br/>
+                            Video is also very similar in the fact that you can display a video using a video tag.<br/>
+                            Videos also have a source tag that is used to display the video if it is in the files.<br/>
+                            You can also display a video from a website by using the iframe.<br/>
+                            Vidoes also have other attributes like controls, autoplay, and loop.<br/>
+                            You can also resize any image or video by defining the witdh and/or height attributes.<br/>
+                            If only one attribute is defined the other will be set by html depending on the aspect ratio<br/>
+                        </section>
+                        <section>
+                            <h3>Lists</h3>
+                            Lists are used to display a list of items.<br/>
+                            Lists can be ordered or unordered depending on the tag used.<br/>
+                            Unordered lists are used with the ul tag.<br/>
+                            Ordered lists are used with the ol tag.<br/>
+                            Lists items displayed with the li tag.<br/>
+                            You can nest tags within li tags.<br/>
+                            With il tag you can also add a type attribute to the list which defines the type of character<br/>
+                            A, a, i, I, and the default 1, are the values that can be assigned to the Type attribute.<br/>
+                            You can nest lists.<br/>
+                        </section>
+                        <section>
+                            <h3>Containers</h3>
+                            Containers in HTML are extremely useful for styling and organization.<br/>
+                            Two of the most used containers being divs and spans.<br/>
+                            Divs are block containers that instead of taking just a line of text, they take up a block of space.<br/>
+                            Spans are inline containers that take up a line of text.<br/>
+                            There are other containers, but mostly divs and spans are used.<br/>
+                            You can use the class tag on any container to give it a name, that can then be used by the stylesheets.<br/>
+                        </section>
+                        <section>
+                            <h3>Input Forms and Buttons</h3>
+                            Input forms are used to collect information from the user.<br/>
+                            Any input for can be used with the input tag and the appropriate type.<br/>
+                            The type attribute is used to define the type of input.<br/>
+                            There are many different types, you can find more information <a href="https://www.w3schools.com/tags/tag_input.asp" target="_blank">here</a>.</br>
+                        </section>
+                        <section>
+                            <h3>Meta Tags</h3>
+                            Tags that are used to basically define the meta data of the data for the webstie.<br/>
+                            Tags like charset, name, content, and http-equiv are used to define the meta data.<br/>
+                            You can also use the attributes viewport to help display the website properly on different
+                            devices.<br/>
+                            Theres also the meta tag that is used to define the description of the website.<br/>
+                            And then theres the meta tag that is used to define the keywords of the website.<br/>
+                            And then theres the meta tag that is used to define the author of the website.<br/>
+                        </section>
+                        <section>
                             <h3>Reference Videos</h3>
                             I watched this <a href="https://youtu.be/pQN-pnXPaVg?t=1873">freeCodeCamp</a> video on HTML.<br/>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/pQN-pnXPaVg" title="YouTube video player" 
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe><br/>
                             I also watched this <a href="https://youtu.be/qz0aGYrrlhU?t=1548">Programming with Mosh</a> video 
-                            on basics of web dev.<br/>
+                                on basics of web dev.<br/>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/qz0aGYrrlhU" title="YouTube video player"
+                                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen></iframe>
+
                         </section>                       
                             <aside>
                                 <h3>Aside</h3>
@@ -100,12 +161,12 @@
                                 </p>
                                 
                             </aside>
-                    </p>
+                    
             </article>
         </main>
-        <footer st>
+        <footer style="background-color:#049e84;">
             <p><big><b>Insta: </b></big>
-                <a href="https://www.instagram.com/m.z_notreallyasian/"><b><i>@m.z_notreallyasian</i></b></a>
+                <a href="https://www.instagram.com/m.z_notreallyasian/" style="color:#99e9ef"><b><i>@m.z_notreallyasian</i></b></a>
             </p>
         </footer>
     </body>
